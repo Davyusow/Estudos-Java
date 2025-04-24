@@ -26,5 +26,19 @@ public class Calculadora {
         n2 = 33;
         System.out.printf("\nDentro do alterando dois números:\nn1 = %d\nn2 = %d\n",n1,n2);
     }
-
+    public void somaArray(int[] numeros){
+        int soma = 0;
+        for(int cont:numeros){
+            soma+=cont;
+        }
+        System.out.println(soma);
+    }
+    public void somaVarArgs(int... numeros){ //os 3 pontos faz com que transforme todos os inteiros inseridos em um array
+        //porém o varArgs pode ser apenas o último valor dos argumentos, ex: somaVarArgs(String opcao, int sinal,int... numeros);
+        int soma = 0;
+        for(int cont:numeros){
+            soma+=cont;
+        }
+        System.out.println(soma);
+    }
 }

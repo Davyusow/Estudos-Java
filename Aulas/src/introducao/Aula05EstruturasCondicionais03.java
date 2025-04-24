@@ -2,7 +2,7 @@ package introducao;
 
 public class Aula05EstruturasCondicionais03 {
     public static void main(String[] args) {
-        // doar se salario > 5000
+        // doar se salarios > 5000
         double salario = 6000.00D;
         String mensagemDoar = "Eu vou doar R$500,00";
         String mensagemNaoDoar = "Eu não posso doar porquê não tenho condições, mas terei!";
