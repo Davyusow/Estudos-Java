@@ -25,6 +25,6 @@ public class AutomovelTeste01 {
         int velocidade = scanner.nextInt();
         Automovel automovel2 = new Automovel(cor,modelo,true,velocidade);
         automovel2.imprime();
-        
+
     }
 }
