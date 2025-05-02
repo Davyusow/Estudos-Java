@@ -15,5 +15,13 @@ public class ClienteTeste01 {
         System.out.println(cliente02);
         System.out.println(cliente03);
         System.out.println(cliente04);
+
+        System.out.println(TipoPagamento.CREDITO.calcularDesconto(100));
+        System.out.println(TipoPagamento.DEBITO.calcularDesconto(100));
+        TipoCliente tipoCliente = TipoCliente.valueOf("PESSOA_FISICA"); //Só retorna o valor do nome se estiver exatamente igual a constante de enum
+        System.out.println(tipoCliente.getNomeRelatorio());
+        TipoCliente tipoCliente2 = TipoCliente.tipoClienteRelatorio("Pessoa Física"); //retorna se for igual ao valor "nomeRelatório"
+        System.out.println(tipoCliente2);
+
     }
 }
