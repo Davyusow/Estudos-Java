@@ -1,7 +1,6 @@
 package javacore.Interfaces.teste;
 
 import javacore.Interfaces.dominio.DataBaseLoader;
-import javacore.Interfaces.dominio.DataLoader;
 import javacore.Interfaces.dominio.FileLoader;
 
 public class DataLoaderTeste01 {
