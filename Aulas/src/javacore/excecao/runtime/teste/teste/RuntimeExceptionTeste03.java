@@ -1,8 +1,8 @@
-package javacore.excecao.runtime.teste;
+package javacore.excecao.runtime.teste.teste;
 
 public class RuntimeExceptionTeste03 {
     public static void main(String[] args) {
-        abrirArquivo(); //com CTRL + ALT + M , você extrai todo um bloco de códigos seleciondo como um método extracted(nome genérico) nesse caso foi renomeado
+        abrirArquivo(); //com CTRL + ALT + M , você extrai todo um bloco de códigos selecionando como um método extracted(nome genérico) nesse caso foi renomeado
     }
 
     private static void abrirArquivo() {

@@ -1,6 +1,4 @@
-package javacore.excecao.runtime.teste;
-
-import java.sql.SQLOutput;
+package javacore.excecao.runtime.teste.teste;
 
 public class RuntimeExceptionTeste02 {
     public static void main(String[] args) {

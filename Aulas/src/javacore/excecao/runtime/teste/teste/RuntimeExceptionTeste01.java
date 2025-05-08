@@ -1,4 +1,4 @@
-package javacore.excecao.runtime.teste;
+package javacore.excecao.runtime.teste.teste;
 
 //runtime exception retorna um erro em tempo de compilação
 //impedindo o programa de ser compilado e não chegar nem a ser rodado
