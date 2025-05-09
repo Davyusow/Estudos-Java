@@ -1,4 +1,4 @@
-package classesutilitarias.datas;
+package classesutilitarias.formatacao;
 
 import java.text.DateFormat;
 import java.util.Calendar;
