@@ -1,8 +1,7 @@
 package classesutilitarias.datas;
 
-import java.time.Instant;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
 import java.util.Map;
 
 public class ZoneTeste01 {
@@ -14,8 +13,19 @@ public class ZoneTeste01 {
         ZoneId tokyoZone = ZoneId.of("Asia/Tokyo");
         System.out.println(tokyoZone);
 
+        System.out.println(ZoneOffset.MIN);
+        System.out.println(ZoneOffset.MAX);
+
+        LocalDateTime now = LocalDateTime.now();
         Instant nowInstant = Instant.now();
         System.out.println(nowInstant);
-        ZonedDateTime zonedDateTime = 
+        ZonedDateTime zonedDateTime = now.atZone(tokyoZone);
+
+        ZonedDateTime zonedDateTime2 = nowInstant.atZone(tokyoZone);
+
+        ZoneOffset offsetManaus = ZoneOffset.of("-04:00");
+        OffsetDateTime offsetDateTime =now.atOffset(offsetManaus);
+        System.out.println(offsetDateTime);
+
     }
 }
