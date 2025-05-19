@@ -44,6 +44,7 @@ public class Conta {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
+
     public boolean equals(Conta conta){
         if(conta.getNumero().equals(this.getNumero()) && conta.getSaldo() == this.getSaldo()){
             return true;
@@ -51,6 +52,7 @@ public class Conta {
         return false;
     }
 
+    @Override
     public String toString(){
         String resultado = "Conta número: "+this.numero+"\nSaldo: R$"+this.saldo;
         return resultado;
