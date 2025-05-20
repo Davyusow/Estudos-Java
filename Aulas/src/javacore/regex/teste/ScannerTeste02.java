@@ -10,7 +10,7 @@ public class ScannerTeste02 {
        // while (scanner.hasNext()){  //enquanto o scanner tiver um valor após o delimitador
        //     System.out.println(scanner.next());//imprime o próximo valor
        // }
-        while (scanner.hasNext()){ 
+        while (scanner.hasNext()){
             if (scanner.hasNextInt()){
                 System.out.println("Inteiro: "+scanner.next());
             }else if (scanner.hasNextBoolean()){
