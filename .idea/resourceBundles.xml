@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/Aulas/src/mensagem.properties" />
+    <file url="file://$PROJECT_DIR$/Aulas/src/mensagem_en_US.properties" />
+    <file url="file://$PROJECT_DIR$/Aulas/src/mensagem_pt_BR.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/Aulas/src/mensagem_en_US.properties" />
+      <file value="file://$PROJECT_DIR$/Aulas/src/mensagem_pt_BR.properties" />
+      <base-name>mensagem</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/Aulas/src/mensagem.properties" />
+      <file value="file://$PROJECT_DIR$/Aulas/src/mensagem_en_US.properties" />
+      <file value="file://$PROJECT_DIR$/Aulas/src/mensagem_pt_BR.properties" />
+      <base-name>mensagem</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>
