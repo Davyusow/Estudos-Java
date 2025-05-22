@@ -1,6 +1,7 @@
 package javacore.heranca.dominio;
 
 public class Funcionario extends Pessoa {
+    int cargaHoraria;
     static{
         System.out.println("Instância de Funcionário criada!\n");
     }
@@ -9,6 +10,10 @@ public class Funcionario extends Pessoa {
     }
     public Funcionario(String nome,String cpf){
         super(nome,cpf);    //chama o construtor dos argumentos dados
+    }
+    public Funcionario(String nome,String cpf,int cargaHoraria){
+        super(nome,cpf);    //chama o construtor dos argumentos dados
+        this.cargaHoraria = cargaHoraria;
     }
 
     private double salario;
