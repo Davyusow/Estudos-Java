@@ -17,7 +17,8 @@ public class FileReaderTeste01 {
             //    System.out.print(c); //imprime o texto e os caracteres não declarados
             //}
             int i = 0;
-            while((i = fr.read()) != -1) { //todas as vezes que a atribuição for verdadeira
+            while((i = fr.read()) != -1) { //enquanto a atribuição for verdadeira
+                //fr.read retorna -1 quando chega no final do arquivo
                 System.out.print((char)i); //imrpime todo o texto
             }
         } catch (FileNotFoundException e) {
