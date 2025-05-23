@@ -11,7 +11,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-class ListaTodosOsArquivos extends SimpleFileVisitor<Path>{
+class ListaArquivosJava extends SimpleFileVisitor<Path>{
     
     //@Override //imprime todo o log
     //public FileVisitResult visitFile(Path arquivo,BasicFileAttributes attributos){
@@ -35,6 +35,6 @@ class ListaTodosOsArquivos extends SimpleFileVisitor<Path>{
 public class SimpleFileVisitorTeste01 {
     public static void main(String[] args) throws IOException {
         Path raiz = Paths.get(".");
-        Files.walkFileTree(raiz, new ListaTodosOsArquivos());
+        Files.walkFileTree(raiz, new ListaArquivosJava());
     }
 }
