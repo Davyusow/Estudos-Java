@@ -1,6 +1,7 @@
 package javacore.classesabstratas.dominio;
 
 public abstract class Funcionario extends Pessoa { //o abstract fica antes do class
+
     //uma classe abstrata não pode ser instânciada, e serve para ser extendida
     //apesar disso é possível fazer construtores
 
