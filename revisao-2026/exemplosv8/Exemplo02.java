@@ -13,6 +13,7 @@ public class Exemplo02 {
             "Gabriel"
         );
 
+        //Queremos apenas os que os nomes que comecem com 'A' ou 'B' Sejam retornados
         List<String> resultado = nomes
             .stream()
             .filter(nome -> nome.startsWith("A") || nome.startsWith("B")) //filtra
@@ -24,9 +25,9 @@ public class Exemplo02 {
         System.out.println("Nomes que começam com A: %s".formatted(resultado));
 
         System.out.println(
-            "Total de caracteres de todos os nomes: %2d".formatted(totalCaracteres)
+            "Total de caracteres de todos os nomes: %2d".formatted(
+                totalCaracteres
+            )
         );
-
-        //Queremos apenas os que os nomes que comecem com 'A' ou 'B' Sejam retornados
     }
 }
