@@ -3,7 +3,7 @@ package java8.streams;
 import java.util.Arrays;
 import java.util.List;
 
-public class aula01 {
+public class Aula01 {
     // O stream é um fluxo de dados, onde basicamente cada dado de uma lista passa pelo stream pelo menos uma vez
 
     public static boolean par(Integer valor) {
