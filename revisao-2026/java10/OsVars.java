@@ -12,7 +12,7 @@ public class OsVars {
         // é útil para inicializar variáveis com tipos mais compridos ou lists e maps
         // muito espaçosas
 
-        va r i = 52;
+        var i = 52;
         var texto = "Um texto beeem grandinho";
         System.out.println("Tem texto?: " + texto.contains("texto"));
 

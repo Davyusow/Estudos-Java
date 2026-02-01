@@ -8,9 +8,9 @@ public record trywresources() {
         } catch (Exception e) {
             e.printStackTrace();
         } // Pré java 9
-        Recurso1 r1 = new Recurso1()
+        Recurso1 r1 = new Recurso1();
         Recurso2 r2 = new Recurso2();
-        try (r1,r2) {
+        try (r1;r2) {
             
             System.out.println("Try");
         } catch (Exception e) {
