@@ -24,7 +24,7 @@ public class OsVars {
         }
 
         for (var j = 0; j < 10; j++) { // a aqui não faz tanto diferença entre int e var
-            i++;
+            
         }
 
         var stringOuInteger = 1 == 1 ? "ABC" : 23; // intersectionType
