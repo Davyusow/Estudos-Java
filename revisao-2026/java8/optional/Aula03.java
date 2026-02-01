@@ -24,5 +24,7 @@ public class Aula03 {
             numero.orElseThrow(() -> new NullPointerException("Valor vazio!"))
         );
         // Se o valor não estiver, lança uma exceção!
+
+        Integer i1 = Integer.valueOf(1);
     }
 }
