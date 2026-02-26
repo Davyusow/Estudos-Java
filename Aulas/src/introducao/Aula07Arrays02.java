@@ -1,5 +1,3 @@
-package introducao;
-
 public class Aula07Arrays02 {
     public static void main(String[] args) {
         //valor de inicialização padrão:
@@ -15,7 +13,7 @@ public class Aula07Arrays02 {
         nomes[0] = "Luffy";
         nomes[1] = "Goku";
         nomes[2] = "Kurosaki";
-        
+
         for(int i = 0;i < nomes.length;i++){
             System.out.println(nomes[i]);
         }

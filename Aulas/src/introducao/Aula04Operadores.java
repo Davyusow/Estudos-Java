@@ -1,6 +1,5 @@
-package introducao;
-
 public class Aula04Operadores {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // + - / *
         int numero01 = 10;
@@ -37,7 +36,7 @@ public class Aula04Operadores {
         double valorTotalContaPoupanca = 10000;
         float valorSwitch = 5400F; //chute esperançoso
         boolean isSwitchDoisCompravel = valorTotalContaCorrente >= valorSwitch || valorTotalContaPoupanca >= valorSwitch;
-        
+
         //operadores de atribuição: =, +=, -=, /=, *=, %=
         double bonus = 1800;
         bonus += 1000; // mesma coisa que : bonus = bonus + 1000; ou : bonus = 1800 + 1000 o termo disso é hard coding

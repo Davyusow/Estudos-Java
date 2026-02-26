@@ -1,4 +1,3 @@
-package introducao;
 /*
  * Descrever a data de recebimento de salário retornando nome, endereço, data e salário na mensagem de saída
  */

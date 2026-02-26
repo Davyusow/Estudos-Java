@@ -1,5 +1,3 @@
-package introducao;
-
 public class Aula05EstruturasCondicionais01 {
     public static void main(String[] args) {
         if(true){
@@ -25,5 +23,5 @@ public class Aula05EstruturasCondicionais01 {
         }else{
             System.out.println("Você não pode comprar bebida alcoólica");
         }
-    }   
+    }
 }

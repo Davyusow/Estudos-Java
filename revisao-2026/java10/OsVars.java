@@ -7,7 +7,7 @@ public class OsVars {
     public static void main(String[] args) {
 
     }
-
+    @SuppressWarnings("unused")
     private static void pode() {
         // é útil para inicializar variáveis com tipos mais compridos ou lists e maps
         // muito espaçosas
@@ -17,6 +17,7 @@ public class OsVars {
         System.out.println("Tem texto?: " + texto.contains("texto"));
 
         var s = new Scanner(texto);
+        s.close();
 
         var lista = List.of("Beltrano", "Fulano", "Ciclano");
         for (var elemento : lista) { // aqui ainda é melhor explicitar o tipo
@@ -24,13 +25,13 @@ public class OsVars {
         }
 
         for (var j = 0; j < 10; j++) { // a aqui não faz tanto diferença entre int e var
-            
+
         }
 
         var stringOuInteger = 1 == 1 ? "ABC" : 23; // intersectionType
         System.out.println(stringOuInteger);
     }
-
+    @SuppressWarnings("unused")
     private static void naoPode(String nome) { // não pode usar var nos parâmetros da função
         // não pode usar como um retorno
 

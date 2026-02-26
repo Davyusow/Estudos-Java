@@ -28,7 +28,7 @@ public class Exemplos {
                 yield "dia inválido!";
         };
     }
-
+    @SuppressWarnings("unused")
     private static void textBlock() {
         String sql1 = "update products\n" + //
                 "    SET quantityINStock = ?\n" + //

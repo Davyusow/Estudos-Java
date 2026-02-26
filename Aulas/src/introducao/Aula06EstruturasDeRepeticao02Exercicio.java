@@ -1,5 +1,3 @@
-package introducao;
-
 public class Aula06EstruturasDeRepeticao02Exercicio {
 
     public static void main(String[] args) {

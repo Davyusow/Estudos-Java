@@ -1,9 +1,7 @@
-package introducao;
-
 public class Aula08ArraysMultidimensionais01 {
 
     public static void main(String[] args) {
-        //primeiro índice meses 
+        //primeiro índice meses
         //segundo índice dias
         int[][] dias = new int[3][3];
         dias[0][0] = 31;

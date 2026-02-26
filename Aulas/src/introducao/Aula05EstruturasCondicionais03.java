@@ -1,6 +1,5 @@
-package introducao;
-
 public class Aula05EstruturasCondicionais03 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // doar se salarios > 5000
         double salario = 6000.00D;
@@ -10,7 +9,7 @@ public class Aula05EstruturasCondicionais03 {
         //operador ternário:
         // variável = (condição) ? valorSeVerdadeiro : valorSeFalso;
         short idade = 20;
-        String categoria = (idade < 15) ? "Categoria Infantil" : (idade >= 15 && idade < 18) ? "Categoria Juvenil" : "Categoria Adulto"; 
+        String categoria = (idade < 15) ? "Categoria Infantil" : (idade >= 15 && idade < 18) ? "Categoria Juvenil" : "Categoria Adulto";
         //Apesar de ser possível usar else if desta maneira no operador ternário
         //não é recomendado por dificultar a leitura
         System.out.println(resultado);

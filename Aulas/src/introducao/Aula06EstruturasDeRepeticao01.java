@@ -1,11 +1,9 @@
-package introducao;
-
 public class Aula06EstruturasDeRepeticao01 {
     public static void main(String[] args) {
         //while, do while, for
         int count = 0;
         System.out.println("While: ");
-        
+
         while(count < 10){  //while verifica e depois roda
             System.out.println(++count);
         }

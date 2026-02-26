@@ -1,5 +1,3 @@
-package introducao;
-
 public class Aula05EstruturasCondicionais06Exercicio {
     public static void main(String[] args) {
         //dados os valores de 1 a 7, imprima se é dia útil ou final de semana, considerando 1 domingo

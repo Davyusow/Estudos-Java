@@ -1,4 +1,5 @@
 public class Exemplo {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         npeMelhorada();
         var p1 = new Produto("Biscoito", 100, 3.49);

@@ -1,7 +1,5 @@
-package introducao;
-
 public class Aula08ArraysMultidimensionais02 {
-
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         int[][] arrayInt = new int[3][];
         arrayInt[0] = new int[2];

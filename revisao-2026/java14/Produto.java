@@ -1,6 +1,6 @@
 //também é possível utilizar anotações do javax!
 
-public record Produto(String nome, int quantidade, double preco) implements Comparable {
+public record Produto(String nome, int quantidade, double preco) implements Comparable<Object> {
     // já tem getters, setters, hashcode e equals implementados
     // muito útil para DTOS, wrappers e classes temporárias
 

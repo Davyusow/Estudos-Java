@@ -1,5 +1,4 @@
-package Aula01;
-
+@SuppressWarnings("unused")
 public class Conta {
     private String numero;
     private double saldo;

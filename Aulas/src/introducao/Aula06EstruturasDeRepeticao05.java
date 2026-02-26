@@ -1,5 +1,3 @@
-package introducao;
-
 public class Aula06EstruturasDeRepeticao05 {
     public static void main(String[] args) {
         double total = 30000;

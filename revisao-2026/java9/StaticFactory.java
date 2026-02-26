@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class StaticFactory {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         var vazio = Optional.empty(); // mais vantagioso de conseguir uma configuração específica
         // aqui fica claro que queremos um Optional vazio
