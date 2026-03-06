@@ -1,3 +1,22 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.home": "~/.asdf/installs/java/openjdk-25.0.2",
+    "editor.parameterHints.enabled": true,
+    "java.referencesCodeLens.enabled": true,
+    "java.signatureHelp.enabled": true,
+    "java.inlayHints.parameterNames.enabled": "all",
+    "java.inlayHints.parameterTypes.enabled": true,
+    "java.symbols.includeSourceMethodDeclarations": true,
+    "java.inlayHints.variableTypes.enabled": true,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/dist/**": true,
+        "**/build/**": true,
+        "**/target/**": true,
+        "**/.vscode/**": true,
+        "**/coverage/**": true,
+        "**/.cache/**": true
+    }
 }
