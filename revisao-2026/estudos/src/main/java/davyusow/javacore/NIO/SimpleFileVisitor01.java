@@ -11,7 +11,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 public class SimpleFileVisitor01 {
     public static void main(String[] args) throws IOException {
         Path root = Paths.get("/home/davyusow/Projetos/Java/Estudos-Java/revisao-2026/estudos/");
-        Files.walkFileTree(root, new LsRecursivo());
+        Files.walkFileTree(root, new LsRecursivo2());
     }
 }
 

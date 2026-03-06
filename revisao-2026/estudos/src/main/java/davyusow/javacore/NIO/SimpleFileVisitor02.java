@@ -16,7 +16,7 @@ public class SimpleFileVisitor02 {
 }
 
 // LsRecursivo e ainda por cima com grep ".java"!
-class LsRecursivo extends SimpleFileVisitor<Path> {
+class LsRecursivo2 extends SimpleFileVisitor<Path> {
     @Override
     public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
         if (file.getFileName().toString().endsWith(".java")) {
